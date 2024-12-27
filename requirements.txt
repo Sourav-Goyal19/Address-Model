@@ -1,0 +1,12 @@
+langchain
+langchain-groq
+langchain-cohere
+langchain_openai
+langchain_community
+langchain-pinecone
+python-dotenv
+pinecone
+datetime
+flask
+google-generativeai
+flask-cors

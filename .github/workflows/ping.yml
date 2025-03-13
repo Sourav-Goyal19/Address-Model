@@ -3,7 +3,7 @@ name: Ping it in every 7 minutes
 on:
   schedule:
     # Runs every 7 minutes
-    - cron: "*/7 * * * *"
+    - cron: "*/4 * * * *"
 
 jobs:
   call-api:

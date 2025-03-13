@@ -10,3 +10,4 @@ datetime
 flask
 google-generativeai
 flask-cors
+pandas

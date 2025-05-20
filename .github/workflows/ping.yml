@@ -1,16 +1,16 @@
-name: Ping it in every 7 minutes
+# name: Ping it in every 7 minutes
 
-on:
-  schedule:
+# on:
+  #schedule:
     # Runs every 7 minutes
-    - cron: "*/4 * * * *"
+    #- cron: "*/4 * * * *"
 
-jobs:
-  call-api:
-    runs-on: ubuntu-latest
+# jobs:
+  # call-api:
+    #runs-on: ubuntu-latest
 
-    steps:
-      - name: Don't let him die bro
-        run: |
-          curl -X GET ${{ secrets.ADDRESS_MODEL_URL }}
+    # steps:
+      # - name: Don't let him die bro
+       # run: |
+          # curl -X GET ${{ secrets.ADDRESS_MODEL_URL }}
           

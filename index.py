@@ -46,7 +46,7 @@ llm = ChatOpenAI(
     base_url="https://api.sambanova.ai/v1/",
     api_key=os.getenv("SAMBANOVA_API_KEY"),
     streaming=True,
-    model="Meta-Llama-3.1-70B-Instruct",
+    model="Meta-Llama-3.3-70B-Instruct",
 )
 
 INDIAN_ADDRESS_TERMS = {

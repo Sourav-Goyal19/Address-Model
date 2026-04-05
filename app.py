@@ -46,7 +46,7 @@ def ocr():
 
     try:
         sample_file = genai.upload_file(path=file_path)
-        model = genai.GenerativeModel(model_name="models/gemini-1.5-pro-latest")
+        model = genai.GenerativeModel(model_name="models/gemini-2.5-flash")
         response = model.generate_content(
             [
                 "OCR this image and just give the written words dont give any extra things",
